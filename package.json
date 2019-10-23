@@ -1,0 +1,29 @@
+{
+  "name": "epam",
+  "version": "1.0.0",
+  "description": "page Object",
+  "scripts": {
+    "prestart-webdriver": "webdriver-manager update",
+    "start-webdriver": "webdriver-manager start",
+    "protractor": "protractor conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LauraMel129/PageObjectHW"
+  },
+  "author": "Laura Melkonyan",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "chai-as-promised": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-angular-protractor": "*",
+    "gulp-cli": "*",
+    "gulp-protractor": "*",
+    "jasmine": "^3.5.0",
+    "jasmine-core": "^2.4.1",
+    "log4js": "^2.3.3",
+    "protractor": "^5.4.2",
+    "protractor-jasmine2-screenshot-reporter": "^0.3.2"
+  }
+}
